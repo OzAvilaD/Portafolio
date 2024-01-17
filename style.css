@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Merriweather:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Rubik+Dirt&display=swap');
+
+
+/* barra de navegacion  */
+.navbar{
+    padding: 1.2rem;
+    background-color: #bebebe;
+}
+
+.navbar-collapse{
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-item{
+    color: #247b7b;
+    font-weight: bold;
+}
+
+/* General */
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-size: 2.5rem;
+    font-family: 'Abril Fatface', serif;
+}
+
+.fotologo{
+    width: 20%;
+    height: 20%;
+}
+/* Seccion Principal */
+.hero{
+    min-height: 450px;
+    background-color: #0d5c63;
+    text-align: center;
+}
+
+.hero-principal{
+    padding: 3rem;
+}
+
+.hero-principal h2{
+    font: 1.5rem;
+    color: #fffffa ;
+    font-family: 'Merriweather', serif;
+}
+
+
+
+/* Seccion sobre mi */
+.sobremi{
+    background-color: #44a1a0;
+    min-height: 450px;
+    /* text-align:center; */
+    padding: 10px;
+}
+
+.sobremi .contenedor{
+    max-width: 600px;
+    text-align: center;
+}
+
+.sobremi .titulo{
+    font: 1.5rem;
+    color:#eff300 ;
+    font-family: 'Rubik Dirt', system-ui;
+}
+
+.descripcion{
+    font-size: 0.9rem;
+    font-family: inherit;
+}
+
+/* experiencia */
+.experiencia{
+    padding: 40px 40px 60px 40px;
+    background-color: #78cdd7;
+}
+
+.experiencia .columna {
+    padding: 20px;
+    border: 2px solid #247b7b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: alll 0.2s ease-in;
+    color: blue;
+}
+
+.experiencia .columna:hover{
+    color: white;
+    background-color: #247b7b;
+}
+
+.experiencia i{
+    font-size: 2.5rem;
+    color: #f1730c;
+    background-color: black;
+    padding: 8px 19px;
+    border-radius: 50%;
+}
+
+.experiencia .experiencia-titulo{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.exp-text{
+    color: rgb(255, 0, 0);
+}
+
+.bagdes-contenedor{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.badge {
+    margin: 5px;
+}
+
+/* proyectos */
+
+.proyectos-recientes{
+    padding: 40px;
+    background-color:white;
+}
+
+.proyectos-recientes .seccion-titulo{
+    font-size: 2.5rem;
+    color: #f1730c;
+    font-family: 'Rubik Dirt', system-ui;
+}
+
+.proyectos-recientes img{
+    height: 100%;
+    width: 100%;
+    padding: 2px;
+    border-radius: 10px;
+    display: block;
+    transition: all 0.2s ease;
+    border: 5px solid black;
+}
+
+.proyectos-recientes .proyectos-contenedor{
+    padding-top: 60px;
+    margin-bottom: 40px;
+    
+}
+
+.overlay{
+    transition: all 0.2s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.overlay p{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.proyecto{
+    position: relative;
+    width: 350px;
+    height: 250px;
+}
+
+.proyecto:hover img{
+    opacity: 0.2;
+}
+
+.proyecto:hover .overlay{
+    opacity: 1;
+}
+
+.overlay .iconos-contenedor{
+    display: block;
+}
+
+.overlay i{
+    color: black;
+    font-size: 60px;
+    margin: 10px;
+}
+
+/* Contacto */
+
+.contacto{
+    background-color: black;
+}
+
+.contacto .container{
+    max-width: 1100px;
+    min-height: 200px;
+    padding: 20px;
+}
+  
+.contacto .rectangulo {
+    margin-top: -5rem;
+    background-color: #3b3ed8e8;
+    border-radius: 10px;
+    box-shadow: 0px 1px 4px 1px white;
+}
+
+.contacto .row {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.contacto .seccion-titulo{
+    font-size: 2rem;
+    color: #9bee94;
+    font-family: 'Rubik Dirt', system-ui;
+}
+
+.contacto .descripcion {
+    color: white;
+    font-size: 1.2rem;
+}
+
+.contacto .btn {
+    color: white;
+    font-weight: bold;
+    background-color:transparent;
+    border-radius: 2px solid white;
+    padding: 1.25em 2em;
+    margin: 10px;
+    border-radius: 100px;
+    transition: all 0.2s ease-in-out;
+}
+
+.contacto .btn:hover{
+    background-color:white;
+    color: black;
+}
+
+.contacto .btn i{
+    color: rgb(255, 255, 255);
+    font-size: 1.3rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.contacto .btn:hover i{
+    color: black;
+}
+
+/* Pie de PAgina */
+
+footer{
+    min-height: 500px;
+    background-color:black;
+}
+
+.footer-logo {
+    font-size: 1.5rem;
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+    filter: invert(100%)
+}
+
+.footer-texto{
+    font-size: 1.5rem;
+    padding: 20px;
+    margin-bottom: 30px;
+    font-size: 'Quicksand', sans-serif;
+}
+
+.icono-redes-sociales  a{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 50%;
+    transition: all 0.2s ease-in;
+}
+
+.icono-redes-sociales i{
+    color: white;
+    font-size: 1.5rem;
+    transition: all 0.2s ease-in;
+}
+
+.icono-redes-sociales a:hover{
+    background-color: white;
+    border: 2px solid #3b3ed8e8;
+}
+
+.icono-redes-sociales a:hover i{
+    color: black;
+}
+
+.derechos-de-autor{
+    font-size: 15px;
+    color: #aeaeae;
+    padding: 20px;
+}
+
+/* adaptable responsive */
+
+@media screen and (max-width:760px) {
+    .navbar-brand{
+        display: none;
+    }
+}
+
+@media screen and (min-width:700px) {
+    .hero-inferior-image{
+        max-width: 600px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .overlay p{
+        font-size: 18px;
+    }
+
+    .overlay i{
+        font-size: 40px;
+    }
+}

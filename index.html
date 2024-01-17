@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="es">
+   <head>
+      <!-- METADATA -->
+      <meta charset="utf-8">
+      <meta name="Author" content="Oscar Avila">
+      <meta name="description" content="Portafolio de desarrollo web de Oscar Avila">
+      <meta name="keywords" content="HTML, CSS, JavaScript y React">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- Bootstrap CSS -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+      <!-- CSS -->
+      <link href="style.css" rel="stylesheet">
+      <!-- TITLE -->
+      <title>Oscar Avila </title>
+      <!-- ICON -->
+      <link rel="ICON" type="image/x-icon" href="image/icon22.svg">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+   </head>
+   <body>
+      <!-- Barra de navegacion -->
+      <nav class="navbar navbar-expand-md ">
+         <div class="container-fluid">
+           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+             <span class="navbar-toggler-icon"></span>
+           </button>
+           <div class="collapse navbar-collapse" id="navbar-toggler">
+             <a class="navbar-brand" href="#">
+               <img src="image/icon2.svg" width="50" alt="Logo pagweb">
+             </a>
+             <ul class="navbar-nav d-flex justify-content-center align-items-center">
+               <li class="nav-item">
+                 <a class="nav-link active" aria-current="page" href="#sobremi">Sobre mi</a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link" href="#proyectos">Proyectos</a>
+               </li>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link" href="#contacto">Contacto</a>
+               </li>
+             </ul>
+           </div>
+         </div>
+      </nav>
+      
+      <!-- Seccion Principal -->
+      <section class="hero align-items-stretch">
+         <div class="hero-principal d-flex flex-column justify-content-center  align-items-center">
+            <img class="fotologo" src="image/cerber.png"  alt="foto">
+            <h1>Hola, Soy Oscar Avila</h1>
+            <h2>Desarrollador Jr. </h2>
+         </div>
+         <div class="hero-inferior">
+            <img class="hero-inferior-image img-fluid" src="image/image2.svg" alt="taza de cafe">
+         </div>
+      </section>
+
+      <!-- Seccion Sobre mi  -->
+      <section id="sobremi" class="sobremi">
+         <div class="contenedor d-flex flex-column justify-content-center align-items-center">
+            <h2 class="titulo">Acerca de Oscar Avila</h2>
+            <p class="descripcion">Soy un desarrollador junior con ganas
+               de aprender nuevos lenguajes y consolidar los que ya domino,
+               tanto en el área de frontend como de backend. Me interesa el
+               campo de la programación, especialmente el desarrollo web.
+               Además, cuento con conocimientos en el mantenimiento de equipos
+               electrónicos y en las redes informáticas según el estándar CCNA
+               de Cisco, lo que me permite ofrecer soluciones integrales a los
+               problemas técnicos. Me considero una persona creativa, sociable,
+               responsable y respetuosa, capaz de trabajar en equipo y resolver 
+               problemas. Mi objetivo es desarrollar aplicaciones web de calidad 
+               que satisfagan las necesidades de los usuarios y los clientes, y 
+               seguir formándome como desarrollador y aportar valor a la empresa.
+            </p>
+         </div>
+      </section>
+
+      <!-- Experiencia -->
+      <section class="experiencia">
+         <div class="container text-center">
+            <div class="row">
+               <!-- DesarrollO -->
+               <div class="columna col-12 col-md-4"> 
+                  <i class="bi bi-display"></i>
+                  <p class="experiencia-titulo">Desarrollo web</p>
+                  <!-- <p class="exp-text">texto de relleno</p> -->
+                  <div class="badges-contenedor">
+                     <span class="badge text-bg-danger">HTML</span>
+                     <span class="badge text-bg-danger">CSS</span>
+                     <span class="badge text-bg-danger">JavaScript</span>
+                  </div>
+               </div>
+               <!-- TI -->
+               <div class="columna col-12 col-md-4"> 
+                  <i class="bi bi-tools"></i>
+                  <p class="experiencia-titulo">TI </p>
+                  <!-- <p class="exp-text">texto de relleno</p> -->
+                  <div class="badges-contenedor">
+                     <span class="badge text-bg-secondary">Equipos Informaticos</span>
+                     <span class="badge text-bg-secondary">Switching</span>
+                     <span class="badge text-bg-secondary">Routering</span>
+                     <span class="badge text-bg-secondary">Wireless Essentials</span>
+                  </div>
+               </div>
+               <!-- ESTUDIANTE -->
+               <div class="columna col-12 col-md-4">
+                  <i class="bi bi-backpack"></i>
+                  <p class="experiencia-titulo">Estudios</p>
+                  <!-- <p class="exp-text">texto de relleno</p> -->
+                  <div class="badges-contenedor">
+                     <span class="badge text-bg-success">Java</span>
+                     <span class="badge text-bg-success">C++</span>
+                     <span class="badge text-bg-success">Python</span>
+                     <span class="badge text-bg-success">SQL</span>
+                     <span class="badge text-bg-success">GIT</span>
+                  </div>
+                </div>
+            </div>
+         </div>
+      </section>
+
+      <section id="proyectos" class="proyectos-recientes d-flex flex-column">
+         <h2 class="seccion-titulo">Mis proyectos</h2>
+         <h3 class="seccion-description">proyectos recien creados</h3>
+         <!-- Galeria de Protextos -->
+         <div class="container text-center proyectos-contenedor">
+            <div class="row">
+               <!-- proyecto 1 -->
+               <div class="col-12 col-md-6 col-lg-4">
+                  <div class="proyecto">
+                     <img src="image/reloj.png  " alt="proyecto No. 1">
+                     <div class="overlay">
+                        <p>
+                           Reloj Digital con JS
+                        </p>
+                        <div class="iconos-contenedor">
+                           <a href="https://github.com/OzAvilaD/Reloj-Digital-Js.git" target="_blank" rel="noopener noreferrer">
+                              <i class="bi bi-github"></i>
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!-- proyecto 2 -->
+               <div class="col-12 col-md-6 col-lg-4">
+                  <div class="proyecto">
+                     <img src="image/login.png" alt="proyecto No. 1">
+                     <div class="overlay">
+                        <p>
+                           Login HTML y CSS
+                        </p>
+                        <div class="iconos-contenedor">
+                           <a href="https://github.com/OzAvilaD/Login/" target="_blank" rel="noopener noreferrer">
+                              <i class="bi bi-github"></i>
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!-- proyecto 3 -->
+               <div class="col-12 col-md-6 col-lg-4">
+                  <div class="proyecto">
+                     <img src="image/clima.png" alt="App clima">
+                     <div class="overlay">
+                        <p>
+                           App Clima
+                        </p>
+                        <div class="iconos-contenedor">
+                           <a href="https://github.com/OzAvilaD/Web_Clima/" target="_blank" rel="noopener noreferrer">
+                              <i class="bi bi-github"></i>
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!--  
+               <! -- proyecto 4 ->
+               <div class="col-12 col-md-6 col-lg-4">
+                  <div class="proyecto">
+                     <img src="image/imagen2.jpg" alt="proyecto No. 1">
+                     <div class="overlay">
+                        <p>
+                           proyecto 1
+                        </p>
+                        <div class="iconos-contenedor">
+                           <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                              <i class="bi bi-github"></i>
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <! -- proyecto 5 ->
+               <div class="col-12 col-md-6 col-lg-4">
+                  <div class="proyecto">
+                     <img src="image/imagen2.jpg" alt="proyecto No. 1">
+                     <div class="overlay">
+                        <p>
+                           proyecto 1
+                        </p>
+                        <div class="iconos-contenedor">
+                           <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                              <i class="bi bi-github"></i>
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <! -- proyecto 6 ->
+               <div class="col-12 col-md-6 col-lg-4">
+                  <div class="proyecto">
+                     <img src="image/imagen2.jpg" alt="proyecto No. 1">
+                     <div class="overlay">
+                        <p>
+                           proyecto 1
+                        </p>
+                        <div class="iconos-contenedor">
+                           <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                              <i class="bi bi-github"></i>
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+               </div> -->
+            </div>
+         </div>
+      </section>
+
+      <!-- Contacto -->
+      <section id="contacto" class="contacto">
+         <div class="container">
+            <div class="container text-center d-flex rectangulo justify-content-evenly">
+               <div class="row">
+                  <div class="col-12 col-md-4 seccion-titulo">
+                     !Hablemos!
+                  </div>
+                  <div class="col-12 col-md-4 descripcion">
+                     Contactame para inicar un proyecto de desarrollo!!!
+                  </div>
+                  <div class="col-12 col-md-4">
+                     <a href="mailto:ar.r.avila.d@gmail.com">
+                        <button type="button" class="btn">
+                           Contacto
+                           <i class="bi bi-envelope-check"></i>
+                        </button>
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!-- Pie de PAgina -->
+      <footer class=" d-flex flex-column align-items-center justify-content-center">
+         <img src="image/icon2.svg" alt="Logo de portafolio" class="footer-logo" >
+         <p class="footer-texto text-center">Aprendo y creo todos los dias, <br> Creemos un proyecto junto. </p>
+         <div class="icono-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+            <a href="https://github.com/OzAvilaD" target="_blank" rel="noopener noreferrer">
+               <i class="bi bi-github"></i>
+            </a>
+            <a href="https://www.instagram.com/osscar__avlla/" target="_blank" rel="noopener noreferrer">
+               <i class="bi bi-instagram"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/oscar-avila-138aab245/" target="_blank" rel="noopener noreferrer">
+               <i class="bi bi-linkedin"></i>
+            </a>
+            <a href="mailto:oscar.r.avila.d@gmail.com" target="_blank" rel="noopener noreferrer">
+               <i class="bi bi-envelope-check" ></i>
+            </a>
+         </div>
+         <div class="derechos-de-autor">Creado Por Oscar Avila (2024) &#169 </div>
+      </footer>
+
+
+      <!-- Bootstrap JS -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+   </body>
+</html>
